@@ -1,0 +1,85 @@
+/* This selects all the elements on the page */
+* {
+   box-sizing: border-box; 
+}
+
+
+:focus {
+ /* TODO */
+ 
+}
+
+
+body {
+  background: linear-gradient(135deg, #f4ce59, #e27e36, #cf2711 );
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+ /* TODO */
+ border: none;
+ padding: 10px;
+ font-size: 35px;
+ width: 450px;
+ height: 75px;
+ border-radius: 5px;
+}
+
+.search-container {
+ /* TODO */
+ text-align: center;
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+  margin-top: 5px;
+}
+.search-container input {
+ /* TODO */
+ background-color: rgba(242, 242, 242, 0.25);
+  box-shadow: 3px 3px 5px black;
+}
+.search-container .suggestions {
+   /* TODO */
+   position: absolute;
+   width: 300px;
+   border-radius: 5px;
+   padding: 0;
+   text-align: left;
+   list-style-type: none;
+   max-height: 200px;
+   /* When the code doesn't fit inside of the desired box the other content will */
+   overflow-y: scroll;
+}
+
+ul {
+  /* TODO */
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.has-suggestions {
+  /* TODO */
+  display: block;
+}
+ul li {
+  /* TODO */
+  padding: 10px;
+}
+ul li:hover {
+  /* TODO */
+  background-color: rgba(242, 242, 242, 0.25);
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+}
+
+input {
+   /* TODO */
+   transition: all 0.3s ease;
+}
